@@ -1,0 +1,135 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{titlesec,xcolor,enumitem,fancyhdr,tabularx,latexsym,marvosym}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage[english]{babel}
+\usepackage[default]{sourcesanspro}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\urlstyle{same}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0in}\renewcommand{\footrulewidth}{0in}
+\setlength{\tabcolsep}{0in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-0.55in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\textheight}{1.1in}
+\raggedbottom\raggedright
+
+\definecolor{resumeBlue}{RGB}{0,74,145}
+\titleformat{\section}{\scshape\large}{}{0em}{\color{resumeBlue}}[\color{black}\titlerule\vspace{-1pt}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\ULdepth}{2pt}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.22in,rightmargin=0.08in,itemsep=1pt,topsep=2pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeSectionType}[3]{\item\begin{tabular*}{0.96\textwidth}[t]{p{0.24\linewidth}p{0.02\linewidth}p{0.68\linewidth}}\textbf{#1} & #2 & #3\end{tabular*}\vspace{-2pt}}
+\newcommand{\resumeQuadHeading}[4]{\item\begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\\textit{\small #3} & \textit{\small #4} \\\end{tabular*}\vspace{-2pt}}
+\newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & \textit{\small #2}\\\end{tabular*}\vspace{-3pt}}
+\newcommand{\resumeHeadingListStart}{\begin{itemize}[leftmargin=0.15in,label={},itemsep=2pt,topsep=2pt]}
+\newcommand{\resumeHeadingListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge Felix Akwasi Sarpong} & Atlanta, GA \\
+  \href{https://linkedin.com/in/felix-akwasi-sarpong-504234121}{\uline{LinkedIn}} $|$
+  \href{https://github.com/fsarpong}{\uline{GitHub}} &
+  \href{mailto:fsarpong1@student.gsu.edu}{\uline{fsarpong1@student.gsu.edu}} $|$ 404-429-7020 \\
+\end{tabular*}
+
+\section{Profile}
+\small{Graduate researcher in statistics and scientific computing with training in mathematics, machine learning, numerical methods, and statistical modeling. Experience applying R, Python, MATLAB, and computational methods to time-series causality, neuroimaging, optimization, Bayesian analysis, and large-scale data problems. Experienced graduate instructor and teaching assistant in mathematics, statistics, and scientific programming.}
+
+\section{Education}
+\resumeHeadingListStart
+  \resumeQuadHeading{Georgia State University}{Atlanta, Georgia}{Master of Science in Statistics}{Aug 2025 -- Present}
+  \resumeQuadHeading{Georgia State University}{Atlanta, Georgia}{Master of Science in Mathematics}{Aug 2023 -- May 2025}
+  \resumeItemListStart
+    \resumeItem{Non-Thesis Project: Hierarchical Matrices}
+  \resumeItemListEnd
+  \resumeQuadHeading{African Institute for Mathematical Sciences (AIMS Ghana)}{Accra, Ghana}{Master of Science in Mathematical Sciences}{Aug 2021 -- Jun 2022}
+  \resumeItemListStart
+    \resumeItem{Thesis: Detecting Causality from Time Series in a Machine Learning Framework}
+  \resumeItemListEnd
+  \resumeQuadHeading{Kwame Nkrumah University of Science and Technology}{Kumasi, Ghana}{Bachelor of Science in Statistics}{Sep 2016 -- Aug 2020}
+  \resumeItemListStart
+    \resumeItem{Thesis: Time Series Analysis of Rainfall Pattern in Ashanti Region, Ghana}
+  \resumeItemListEnd
+\resumeHeadingListEnd
+
+\section{Research Experience}
+\resumeHeadingListStart
+  \resumeQuadHeading{Machine Learning and Computational Neuroscience Research}{AIMS Ghana}{}{2021 -- 2022}
+  \resumeItemListStart
+    \resumeItem{Investigated causal relationships in multivariate time series using machine-learning methods and reservoir computing.}
+    \resumeItem{Applied computational methods to resting-state neuroimaging data to study directed effective brain connectivity.}
+    \resumeItem{Contributed to collaborative research that developed into a scientific preprint and COSYNE 2024 work.}
+  \resumeItemListEnd
+  \resumeQuadHeading{Hierarchical Matrices Project}{Georgia State University}{}{2024 -- 2025}
+  \resumeItemListStart
+    \resumeItem{Studied hierarchical matrix representations for efficient approximation and computation with large structured matrices.}
+    \resumeItem{Developed the project as the non-thesis research component of the M.S. in Mathematics.}
+  \resumeItemListEnd
+\resumeHeadingListEnd
+
+\section{Publication}
+\small{J. Falc\'o-Roget, A. Onicas, \textbf{F. A. Sarpong}, and A. Crimi. ``Directed networks and resting-state effective brain connectivity with state-space reconstruction using reservoir computing causality.'' \textit{bioRxiv}, 2023. \href{https://doi.org/10.1101/2023.06.08.544175}{\uline{doi:10.1101/2023.06.08.544175}}. Related work presented at COSYNE 2024.}
+
+\section{Selected Technical Projects}
+\resumeHeadingListStart
+  \resumeProjectHeading{Statistical Learning and Pattern Recognition}{R}
+  \resumeItemListStart
+    \resumeItem{Built and evaluated regression and classification workflows using training/validation splits, regularization, model selection, and predictive performance measures.}
+  \resumeItemListEnd
+  \resumeProjectHeading{Bayesian Statistical Computing}{R}
+  \resumeItemListStart
+    \resumeItem{Implemented Bayesian models and simulation-based inference, including conjugate models, Monte Carlo methods, mixture models, and Gibbs sampling.}
+  \resumeItemListEnd
+  \resumeProjectHeading{Numerical Optimization and Scientific Computing}{R / MATLAB}
+  \resumeItemListStart
+    \resumeItem{Implemented Golden Section Search, steepest descent, conjugate-gradient, Newton/Levenberg--Marquardt, and constrained optimization methods.}
+  \resumeItemListEnd
+  \resumeProjectHeading{Survival and Longitudinal Data Analysis}{R}
+  \resumeItemListStart
+    \resumeItem{Applied survival models and longitudinal/biostatistical methods to graduate-level data analyses, including model diagnostics and inference.}
+  \resumeItemListEnd
+\resumeHeadingListEnd
+
+\section{Teaching Experience}
+\resumeHeadingListStart
+  \resumeQuadHeading{Graduate Assistant}{Aug 2023 -- Present}{Department of Mathematics and Statistics, Georgia State University}{Atlanta, Georgia}
+  \resumeItemListStart
+    \resumeItem{Support undergraduate instruction in Pre-Calculus, Calculus, College Algebra, Elementary Statistics, and Financial Mathematics.}
+    \resumeItem{Guide students through assignments and quantitative problem solving; grade coursework and examinations and provide constructive feedback.}
+  \resumeItemListEnd
+  \resumeQuadHeading{Teaching Assistant}{Sep 2020 -- Aug 2021}{Department of Mathematics, KNUST}{Kumasi, Ghana}
+  \resumeItemListStart
+    \resumeItem{Supported Mathematical Programming instruction using Python, MATLAB, and R and assisted with numerical-analysis practical sessions.}
+    \resumeItem{Helped students with programming assignments, root-finding, interpolation, and computational problem solving.}
+  \resumeItemListEnd
+\resumeHeadingListEnd
+
+\section{Technical Skills}
+\resumeHeadingListStart
+  \resumeSectionType{Programming}{:}{R, Python, MATLAB, SQL}
+  \resumeSectionType{Methods}{:}{Statistical Modeling, Machine Learning, Time Series, Bayesian Computing, Survival Analysis, Numerical Optimization, Scientific Computing}
+  \resumeSectionType{Tools}{:}{RStudio, LaTeX, Git/GitHub, Microsoft Excel, Power BI}
+  \resumeSectionType{Languages}{:}{English (fluent), Asante Twi (fluent)}
+\resumeHeadingListEnd
+
+\section{Certification}
+\resumeHeadingListStart
+  \resumeQuadHeading{Blossom Academy Data Analytics Certification}{Kwabenya, Ghana}{Data Analytics}{Jan 2023 -- Apr 2023}
+\resumeHeadingListEnd
+
+\section{Leadership and Service}
+\resumeHeadingListStart
+  \resumeQuadHeading{Kids and Maths Organisation}{Accra, Ghana}{Member}{Oct 2017 -- Present}
+\resumeHeadingListEnd
+
+\end{document}

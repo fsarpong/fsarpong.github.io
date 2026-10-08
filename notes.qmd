@@ -1,0 +1,33 @@
+---
+title: "Code & Math Notes"
+---
+
+# Code & Math Notes
+
+This section is designed for short technical notes, reproducible examples, and explanations of mathematical and statistical ideas.
+
+## Example: a reproducible R calculation
+
+```{r}
+#| label: demo-r
+#| echo: true
+#| output: true
+
+set.seed(8670)
+x <- rnorm(1000)
+c(mean = mean(x), sd = sd(x))
+```
+
+## Topics I plan to publish
+
+- Statistical computing in R
+- Numerical optimization algorithms
+- Bayesian simulation and MCMC
+- Survival-analysis examples
+- Regularization and high-dimensional regression
+- Pattern recognition and machine learning
+- Mathematical derivations with reproducible code
+
+::: {.callout-note}
+The source of this page is a `.qmd` file. Quarto executes the R code, formats the mathematics, and creates the final HTML page automatically.
+:::

@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Felix Akwasi Sarpong"
+  site-url: "https://fsarpong.github.io"
+  description: "Mathematics, statistics, scientific computing, and machine learning."
+  favicon: assets/profile.png
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: notes.qmd
+        text: Code & Notes
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/fsarpong
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/felix-akwasi-sarpong-504234121
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Felix Akwasi Sarpong"
+    right: "Built with R, Quarto, CSS & JavaScript"
+  search: true
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    include-after-body: scripts.html
+
+execute:
+  freeze: auto

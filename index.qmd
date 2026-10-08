@@ -1,0 +1,78 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-copy}
+<p class="eyebrow">MATHEMATICS · STATISTICS · SCIENTIFIC COMPUTING</p>
+
+# Felix Akwasi Sarpong
+
+## Building rigorous computational methods for real scientific problems.
+
+I am a graduate student in the Department of Mathematics and Statistics at Georgia State University. My work sits at the intersection of statistical computing, machine learning, numerical methods, optimization, and data-driven scientific research.
+
+<div class="hero-actions">
+<a class="btn-primary" href="research.html">Explore my research</a>
+<a class="btn-secondary" href="resume/Felix_Akwasi_Sarpong_CV.pdf">Download CV</a>
+</div>
+:::
+
+::: {.hero-photo}
+![](assets/profile.png){fig-alt="Portrait of Felix Akwasi Sarpong"}
+:::
+:::
+
+::: {.section-shell}
+## What I work on
+
+::: {.card-grid}
+::: {.feature-card}
+### Statistical Computing
+Reproducible statistical analysis, Bayesian computation, resampling, survival analysis, longitudinal models, and high-dimensional methods.
+:::
+
+::: {.feature-card}
+### Scientific Computing
+Numerical optimization, matrix computation, algorithms, simulation, and computational approaches to mathematical problems.
+:::
+
+::: {.feature-card}
+### Machine Learning
+Predictive modeling, regularization, pattern recognition, time-series learning, and computational methods for scientific data.
+:::
+:::
+
+## Selected work
+
+::: {.project-grid}
+::: {.project-card}
+<span class="project-kicker">RESEARCH</span>
+### Reservoir Computing & Brain Connectivity
+Research on directed networks and resting-state effective brain connectivity using state-space reconstruction and reservoir-computing causality.
+
+[View research →](research.html)
+:::
+
+::: {.project-card}
+<span class="project-kicker">STATISTICAL LEARNING</span>
+### Large-Scale NYC Taxi Prediction
+Elastic-net modeling for large-scale taxi-trip prediction, comparing ridge, lasso, and elastic-net approaches on real transportation data.
+
+[View projects →](projects.html)
+:::
+
+::: {.project-card}
+<span class="project-kicker">BIOSTATISTICS</span>
+### Longitudinal Brain-Volume Analysis
+Response-profile analysis of normalized whole-brain volume using longitudinal OASIS cohort data.
+
+[View projects →](projects.html)
+:::
+:::
+
+<div class="quote-panel">
+<p>My goal is to combine mathematical structure, statistical reasoning, and computation to solve problems that matter.</p>
+</div>
+:::

@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "My CV is maintained as a LaTeX source file and compiled to PDF so that the website and academic document can live in the same project.\n\nDownload PDF CV View LaTeX source\n\n\n\nGeorgia State University, Department of Mathematics and Statistics — Graduate study, 2023–present\nAfrican Institute for Mathematical Sciences (AIMS Ghana) — M.S. Mathematical Sciences\nKwame Nkrumah University of Science and Technology (KNUST) — B.Sc., Statistics/Mathematics\n\n\n\nDirected Networks and Resting-State Effective Brain Connectivity with State-Space Reconstruction Using Reservoir Computing Causality (2023), with Joan Falcó-Roget, Adrian Onicas, and Alessandro Crimi.\n\n\n\nStatistical computing · scientific computing · machine learning · optimization · Bayesian computation · survival analysis · longitudinal modeling · time-series analysis.\n\n\n\n\n\n\nWarning\n\n\n\nThis website package contains a draft CV assembled from information previously provided and publicly verifiable academic information. Before using it for applications, review dates, degree titles, honors, teaching appointments, and contact details against your latest official resume."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Georgia State University, Department of Mathematics and Statistics — Graduate study, 2023–present\nAfrican Institute for Mathematical Sciences (AIMS Ghana) — M.S. Mathematical Sciences\nKwame Nkrumah University of Science and Technology (KNUST) — B.Sc., Statistics/Mathematics"
+  },
+  {
+    "objectID": "cv.html#research",
+    "href": "cv.html#research",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Directed Networks and Resting-State Effective Brain Connectivity with State-Space Reconstruction Using Reservoir Computing Causality (2023), with Joan Falcó-Roget, Adrian Onicas, and Alessandro Crimi."
+  },
+  {
+    "objectID": "cv.html#core-areas",
+    "href": "cv.html#core-areas",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Statistical computing · scientific computing · machine learning · optimization · Bayesian computation · survival analysis · longitudinal modeling · time-series analysis.\n\n\n\n\n\n\nWarning\n\n\n\nThis website package contains a draft CV assembled from information previously provided and publicly verifiable academic information. Before using it for applications, review dates, degree titles, honors, teaching appointments, and contact details against your latest official resume."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Felix Akwasi Sarpong",
+    "section": "",
+    "text": "MATHEMATICS · STATISTICS · SCIENTIFIC COMPUTING\n\n\n\n\n\nI am a graduate student in the Department of Mathematics and Statistics at Georgia State University. My work sits at the intersection of statistical computing, machine learning, numerical methods, optimization, and data-driven scientific research.\n\nExplore my research Download CV"
+  },
+  {
+    "objectID": "index.html#building-rigorous-computational-methods-for-real-scientific-problems.",
+    "href": "index.html#building-rigorous-computational-methods-for-real-scientific-problems.",
+    "title": "Felix Akwasi Sarpong",
+    "section": "",
+    "text": "I am a graduate student in the Department of Mathematics and Statistics at Georgia State University. My work sits at the intersection of statistical computing, machine learning, numerical methods, optimization, and data-driven scientific research.\n\nExplore my research Download CV"
+  },
+  {
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Felix Akwasi Sarpong",
+    "section": "What I work on",
+    "text": "What I work on\n\n\nStatistical Computing\nReproducible statistical analysis, Bayesian computation, resampling, survival analysis, longitudinal models, and high-dimensional methods.\n\n\nScientific Computing\nNumerical optimization, matrix computation, algorithms, simulation, and computational approaches to mathematical problems.\n\n\nMachine Learning\nPredictive modeling, regularization, pattern recognition, time-series learning, and computational methods for scientific data."
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Felix Akwasi Sarpong",
+    "section": "Selected work",
+    "text": "Selected work\n\n\nRESEARCH ### Reservoir Computing & Brain Connectivity Research on directed networks and resting-state effective brain connectivity using state-space reconstruction and reservoir-computing causality.\nView research →\n\n\nSTATISTICAL LEARNING ### Large-Scale NYC Taxi Prediction Elastic-net modeling for large-scale taxi-trip prediction, comparing ridge, lasso, and elastic-net approaches on real transportation data.\nView projects →\n\n\nBIOSTATISTICS ### Longitudinal Brain-Volume Analysis Response-profile analysis of normalized whole-brain volume using longitudinal OASIS cohort data.\nView projects →\n\n\n\n\nMy goal is to combine mathematical structure, statistical reasoning, and computation to solve problems that matter."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Code & Math Notes",
+    "section": "",
+    "text": "This section is designed for short technical notes, reproducible examples, and explanations of mathematical and statistical ideas.\n\n\n\nset.seed(8670)\nx &lt;- rnorm(1000)\nc(mean = mean(x), sd = sd(x))\n\n     mean        sd \n0.0270767 0.9873201 \n\n\n\n\n\n\nStatistical computing in R\nNumerical optimization algorithms\nBayesian simulation and MCMC\nSurvival-analysis examples\nRegularization and high-dimensional regression\nPattern recognition and machine learning\nMathematical derivations with reproducible code\n\n\n\n\n\n\n\nNote\n\n\n\nThe source of this page is a .qmd file. Quarto executes the R code, formats the mathematics, and creates the final HTML page automatically."
+  },
+  {
+    "objectID": "notes.html#example-a-reproducible-r-calculation",
+    "href": "notes.html#example-a-reproducible-r-calculation",
+    "title": "Code & Math Notes",
+    "section": "",
+    "text": "set.seed(8670)\nx &lt;- rnorm(1000)\nc(mean = mean(x), sd = sd(x))\n\n     mean        sd \n0.0270767 0.9873201"
+  },
+  {
+    "objectID": "notes.html#topics-i-plan-to-publish",
+    "href": "notes.html#topics-i-plan-to-publish",
+    "title": "Code & Math Notes",
+    "section": "",
+    "text": "Statistical computing in R\nNumerical optimization algorithms\nBayesian simulation and MCMC\nSurvival-analysis examples\nRegularization and high-dimensional regression\nPattern recognition and machine learning\nMathematical derivations with reproducible code\n\n\n\n\n\n\n\nNote\n\n\n\nThe source of this page is a .qmd file. Quarto executes the R code, formats the mathematics, and creates the final HTML page automatically."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research interests center on computational statistics and scientific computing, particularly where machine learning and mathematical modeling can reveal structure in complex data.\n\n\nDirected Networks and Resting-State Effective Brain Connectivity with State-Space Reconstruction Using Reservoir Computing Causality\nJoan Falcó-Roget, Adrian Onicas, Felix Akwasi-Sarpong, Alessandro Crimi (2023).\nThis work studies effective connectivity in resting-state brain networks using reservoir-computing causality and state-space reconstruction. It connects time-series modeling, nonlinear dynamics, machine learning, and computational neuroscience.\nOpen DOI\n\n\n\n\n\nI am interested in methods that balance prediction, interpretability, and computational efficiency, including regularization and high-dimensional models.\n\n\n\nMy computational work includes numerical optimization, iterative algorithms, simulation, and matrix-based methods for scientific problems.\n\n\n\nI have worked with longitudinal and survival-analysis methods and am interested in rigorous statistical approaches to biomedical and population-health questions.\n\n\n\nI use R, Python, Quarto, LaTeX, and Git to create workflows in which the analysis, figures, code, and final report can be reproduced from a transparent source."
+  },
+  {
+    "objectID": "research.html#directed-brain-networks-with-reservoir-computing",
+    "href": "research.html#directed-brain-networks-with-reservoir-computing",
+    "title": "Research",
+    "section": "",
+    "text": "Directed Networks and Resting-State Effective Brain Connectivity with State-Space Reconstruction Using Reservoir Computing Causality\nJoan Falcó-Roget, Adrian Onicas, Felix Akwasi-Sarpong, Alessandro Crimi (2023).\nThis work studies effective connectivity in resting-state brain networks using reservoir-computing causality and state-space reconstruction. It connects time-series modeling, nonlinear dynamics, machine learning, and computational neuroscience.\nOpen DOI"
+  },
+  {
+    "objectID": "research.html#research-directions",
+    "href": "research.html#research-directions",
+    "title": "Research",
+    "section": "",
+    "text": "I am interested in methods that balance prediction, interpretability, and computational efficiency, including regularization and high-dimensional models.\n\n\n\nMy computational work includes numerical optimization, iterative algorithms, simulation, and matrix-based methods for scientific problems.\n\n\n\nI have worked with longitudinal and survival-analysis methods and am interested in rigorous statistical approaches to biomedical and population-health questions.\n\n\n\nI use R, Python, Quarto, LaTeX, and Git to create workflows in which the analysis, figures, code, and final report can be reproduced from a transparent source."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "STAT 8672 · Georgia State University · Spring 2026\nBuilt a large-scale predictive modeling workflow using NYC TLC Yellow Taxi data. Compared ridge, lasso, and elastic-net models with glmnet, emphasizing regularization, validation, and scalable statistical learning.\nTools: R · glmnet · data preprocessing · model validation\n\n\n\nSTAT 8540 · Georgia State University · Spring 2026\nAnalyzed normalized whole-brain volume in the OASIS cohort using longitudinal response-profile methods, with attention to repeated measurements and appropriate covariance modeling.\nTools: R · longitudinal models · GLS · statistical inference\n\n\n\nImplemented simulation-based Bayesian analyses using Monte Carlo and Gibbs-sampling methods, with reproducible R workflows and posterior summaries.\nTools: R · Bayesian inference · Monte Carlo · Gibbs sampling\n\n\n\nImplemented and studied optimization methods including golden-section search, steepest descent, conjugate-gradient methods, Newton/Levenberg-Marquardt ideas, and constrained optimization.\nTools: R/Python · numerical methods · optimization\n\n\n\nGraduate research exploring causality detection in time-series data using machine-learning approaches, contributing to later work on reservoir-computing causality and brain connectivity.\nTools: Python · machine learning · time series · reservoir computing\n\n\n\n\nMy code portfolio is available on GitHub. As this site develops, I will feature polished repositories here with reproducible examples, documentation, and selected results."
+  },
+  {
+    "objectID": "projects.html#github",
+    "href": "projects.html#github",
+    "title": "Projects",
+    "section": "",
+    "text": "My code portfolio is available on GitHub. As this site develops, I will feature polished repositories here with reproducible examples, documentation, and selected results."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am Felix Akwasi Sarpong, a Ghanaian mathematician and statistician pursuing graduate study at Georgia State University in Atlanta. My academic path has moved from mathematics and statistics into scientific computing, machine learning, optimization, and computational research."
+  },
+  {
+    "objectID": "about.html#academic-path",
+    "href": "about.html#academic-path",
+    "title": "About",
+    "section": "Academic path",
+    "text": "Academic path\nMy training includes undergraduate study at Kwame Nkrumah University of Science and Technology (KNUST), graduate mathematical-sciences training at AIMS Ghana, and graduate work in the Department of Mathematics and Statistics at Georgia State University.\nAt AIMS Ghana, my research included machine learning for time-series causality. That work contributed to research on resting-state effective brain connectivity using reservoir computing, connecting mathematical modeling, machine learning, and computational neuroscience.\nAt Georgia State, my graduate work has included statistical learning, Bayesian data analysis, survival analysis, computational optimization, biostatistics, experimental design, and pattern recognition."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research interests",
+    "text": "Research interests\n\nStatistical and scientific computing\nMachine learning and pattern recognition\nNumerical optimization and numerical linear algebra\nBayesian computation and Monte Carlo methods\nSurvival and longitudinal data analysis\nTime-series causality and computational neuroscience\nHigh-dimensional predictive modeling"
+  },
+  {
+    "objectID": "about.html#technical-toolkit",
+    "href": "about.html#technical-toolkit",
+    "title": "About",
+    "section": "Technical toolkit",
+    "text": "Technical toolkit\nLanguages: R, Python, MATLAB, SQL, SAS, C\nScientific workflow: RStudio, Quarto, LaTeX, Git/GitHub, Jupyter, Linux\nMethods: regression, regularization, simulation, optimization, Bayesian inference, resampling, survival analysis, longitudinal models, machine learning"
+  },
+  {
+    "objectID": "about.html#beyond-computation",
+    "href": "about.html#beyond-computation",
+    "title": "About",
+    "section": "Beyond computation",
+    "text": "Beyond computation\nI value teaching, clear technical communication, reproducible research, and building tools that make quantitative ideas easier to understand and use."
+  }
+]

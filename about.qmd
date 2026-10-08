@@ -1,0 +1,37 @@
+---
+title: "About"
+---
+
+::: {.about-lead}
+# About me
+
+I am **Felix Akwasi Sarpong**, a Ghanaian mathematician and statistician pursuing graduate study at **Georgia State University** in Atlanta. My academic path has moved from mathematics and statistics into scientific computing, machine learning, optimization, and computational research.
+:::
+
+## Academic path
+
+My training includes undergraduate study at **Kwame Nkrumah University of Science and Technology (KNUST)**, graduate mathematical-sciences training at **AIMS Ghana**, and graduate work in the Department of Mathematics and Statistics at **Georgia State University**.
+
+At AIMS Ghana, my research included machine learning for time-series causality. That work contributed to research on **resting-state effective brain connectivity using reservoir computing**, connecting mathematical modeling, machine learning, and computational neuroscience.
+
+At Georgia State, my graduate work has included statistical learning, Bayesian data analysis, survival analysis, computational optimization, biostatistics, experimental design, and pattern recognition.
+
+## Research interests
+
+- Statistical and scientific computing
+- Machine learning and pattern recognition
+- Numerical optimization and numerical linear algebra
+- Bayesian computation and Monte Carlo methods
+- Survival and longitudinal data analysis
+- Time-series causality and computational neuroscience
+- High-dimensional predictive modeling
+
+## Technical toolkit
+
+**Languages:** R, Python, MATLAB, SQL, SAS, C  
+**Scientific workflow:** RStudio, Quarto, LaTeX, Git/GitHub, Jupyter, Linux  
+**Methods:** regression, regularization, simulation, optimization, Bayesian inference, resampling, survival analysis, longitudinal models, machine learning
+
+## Beyond computation
+
+I value teaching, clear technical communication, reproducible research, and building tools that make quantitative ideas easier to understand and use.

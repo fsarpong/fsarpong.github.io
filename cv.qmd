@@ -1,0 +1,30 @@
+---
+title: "Curriculum Vitae"
+---
+
+# Curriculum Vitae
+
+My CV is maintained as a LaTeX source file and compiled to PDF so that the website and academic document can live in the same project.
+
+<div class="cv-actions">
+<a class="btn-primary" href="resume/Felix_Akwasi_Sarpong_CV.pdf">Download PDF CV</a>
+<a class="btn-secondary" href="resume/Felix_Akwasi_Sarpong_CV.tex">View LaTeX source</a>
+</div>
+
+## Education
+
+**Georgia State University**, Department of Mathematics and Statistics — Graduate study, 2023–present  
+**African Institute for Mathematical Sciences (AIMS Ghana)** — M.S. Mathematical Sciences  
+**Kwame Nkrumah University of Science and Technology (KNUST)** — B.Sc., Statistics/Mathematics
+
+## Research
+
+**Directed Networks and Resting-State Effective Brain Connectivity with State-Space Reconstruction Using Reservoir Computing Causality** (2023), with Joan Falcó-Roget, Adrian Onicas, and Alessandro Crimi.
+
+## Core areas
+
+Statistical computing · scientific computing · machine learning · optimization · Bayesian computation · survival analysis · longitudinal modeling · time-series analysis.
+
+::: {.callout-warning}
+This website package contains a **draft CV assembled from information previously provided and publicly verifiable academic information**. Before using it for applications, review dates, degree titles, honors, teaching appointments, and contact details against your latest official resume.
+:::

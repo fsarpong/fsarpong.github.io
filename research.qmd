@@ -1,0 +1,32 @@
+---
+title: "Research"
+---
+
+# Research
+
+My research interests center on computational statistics and scientific computing, particularly where machine learning and mathematical modeling can reveal structure in complex data.
+
+::: {.research-highlight}
+## Directed brain networks with reservoir computing
+
+**Directed Networks and Resting-State Effective Brain Connectivity with State-Space Reconstruction Using Reservoir Computing Causality**  
+Joan Falcó-Roget, Adrian Onicas, **Felix Akwasi-Sarpong**, Alessandro Crimi (2023).
+
+This work studies effective connectivity in resting-state brain networks using reservoir-computing causality and state-space reconstruction. It connects time-series modeling, nonlinear dynamics, machine learning, and computational neuroscience.
+
+[Open DOI](https://doi.org/10.1101/2023.06.08.544175){.btn-secondary}
+:::
+
+## Research directions
+
+### Statistical machine learning
+I am interested in methods that balance prediction, interpretability, and computational efficiency, including regularization and high-dimensional models.
+
+### Scientific computing & optimization
+My computational work includes numerical optimization, iterative algorithms, simulation, and matrix-based methods for scientific problems.
+
+### Biostatistics & health data
+I have worked with longitudinal and survival-analysis methods and am interested in rigorous statistical approaches to biomedical and population-health questions.
+
+### Reproducible research
+I use R, Python, Quarto, LaTeX, and Git to create workflows in which the analysis, figures, code, and final report can be reproduced from a transparent source.

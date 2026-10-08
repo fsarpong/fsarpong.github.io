@@ -1,0 +1,40 @@
+---
+title: "Projects"
+---
+
+# Selected projects
+
+::: {.project-list}
+### Elastic Net for Large-Scale NYC Taxi Trip Prediction
+**STAT 8672 · Georgia State University · Spring 2026**
+
+Built a large-scale predictive modeling workflow using NYC TLC Yellow Taxi data. Compared ridge, lasso, and elastic-net models with `glmnet`, emphasizing regularization, validation, and scalable statistical learning.
+
+**Tools:** R · glmnet · data preprocessing · model validation
+
+### Longitudinal Response-Profile Analysis of Whole Brain Volume
+**STAT 8540 · Georgia State University · Spring 2026**
+
+Analyzed normalized whole-brain volume in the OASIS cohort using longitudinal response-profile methods, with attention to repeated measurements and appropriate covariance modeling.
+
+**Tools:** R · longitudinal models · GLS · statistical inference
+
+### Bayesian Computation: Monte Carlo & Gibbs Sampling
+Implemented simulation-based Bayesian analyses using Monte Carlo and Gibbs-sampling methods, with reproducible R workflows and posterior summaries.
+
+**Tools:** R · Bayesian inference · Monte Carlo · Gibbs sampling
+
+### Numerical Optimization
+Implemented and studied optimization methods including golden-section search, steepest descent, conjugate-gradient methods, Newton/Levenberg-Marquardt ideas, and constrained optimization.
+
+**Tools:** R/Python · numerical methods · optimization
+
+### Time-Series Causality in a Machine-Learning Framework
+Graduate research exploring causality detection in time-series data using machine-learning approaches, contributing to later work on reservoir-computing causality and brain connectivity.
+
+**Tools:** Python · machine learning · time series · reservoir computing
+:::
+
+## GitHub
+
+My code portfolio is available on [GitHub](https://github.com/fsarpong). As this site develops, I will feature polished repositories here with reproducible examples, documentation, and selected results.

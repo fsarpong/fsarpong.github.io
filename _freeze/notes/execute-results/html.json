@@ -1,0 +1,15 @@
+{
+  "hash": "1f0782dbc12bb39a6fb21780851d136a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Code & Math Notes\"\n---\n\n# Code & Math Notes\n\nThis section is designed for short technical notes, reproducible examples, and explanations of mathematical and statistical ideas.\n\n## Example: a reproducible R calculation\n\n\n::: {.cell}\n\n```{.r .cell-code}\nset.seed(8670)\nx <- rnorm(1000)\nc(mean = mean(x), sd = sd(x))\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n     mean        sd \n0.0270767 0.9873201 \n```\n\n\n:::\n:::\n\n\n## Topics I plan to publish\n\n- Statistical computing in R\n- Numerical optimization algorithms\n- Bayesian simulation and MCMC\n- Survival-analysis examples\n- Regularization and high-dimensional regression\n- Pattern recognition and machine learning\n- Mathematical derivations with reproducible code\n\n::: {.callout-note}\nThe source of this page is a `.qmd` file. Quarto executes the R code, formats the mathematics, and creates the final HTML page automatically.\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
